@@ -1,0 +1,29 @@
+@import "src/assets/scss/variables";
+
+.header {
+  background-color: $light-mode-elements;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  box-shadow: 0 1px 5px darken($light-mode-background, 15%);
+  align-items: center;
+}
+
+.header__brand {
+  font-size: $font-size-detail;
+  font-weight: $font-weight-bold;
+}
+
+.header__switch {
+  display: flex;
+}
+
+.switch__icon {
+  height: $font-size-home;
+  margin-right: .5rem;
+}
+
+.switch__text {
+  vertical-align: middle;
+  font-size: .8rem;
+}

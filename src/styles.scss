@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+@import "assets/scss/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-home;
+}
+
+body {
+  color: $light-mode-text;
+  font-family: $font-family-main;
+  font-weight: $font-weight-normal;
+  background-color: $light-mode-background;
+}
