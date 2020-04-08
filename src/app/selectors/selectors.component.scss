@@ -12,6 +12,7 @@
 .search__icon {
   height: 1.2rem;
   margin-right: 2rem;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(0%) saturate(269%) hue-rotate(276deg) brightness(82%) contrast(93%);
 }
 
 .search__input {
