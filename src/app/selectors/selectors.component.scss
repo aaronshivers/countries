@@ -1,0 +1,25 @@
+@import "src/assets/scss/variables";
+
+.selectors__search {
+  background-color: $light-mode-elements;
+  display: flex;
+  padding: 1rem 2rem;
+  border: none;
+  box-shadow: 0 1px 5px darken($light-mode-background, 15%);
+  align-items: center;
+}
+
+.search__icon {
+  height: 1.2rem;
+  margin-right: 2rem;
+}
+
+.search__input {
+  font-size: .8rem;
+  color: $light-mode-input;
+  border: none;
+}
+
+.search__input::placeholder {
+  color: lighten($light-mode-input, 25%);
+}
